@@ -1,13 +1,24 @@
 # PhindersKeepers
-This is a simple python script designed to take a multifasta file and a tsv file containing genomes.
+This is a simple python script designed to help parse data from inphared.
 
 ## Install
 ```
-pip install PhindersKeepers==0.0.1
+pip install PhindersKeepers
 ```
 
 ## Usage
+To see options
+```
+phinders_keepers.py --help
+```
+
+## Example using data from 1May2023
+This command returns a single phage in the output directory, this phage is the Koomba-kaat_1 Silviavirus.
+```
+phinders_keepers.py -g 1May2023_genomes_excluding_refseq.fa -d 1May2023_data_excluding_refseq.tsv -o <PATH TO OUTPUT DIR> --query OP263969 --search Accession
+```
 
 ## Output
-
-## Citation
+In the output directory you will have:
+* Individual fasta files with the genome accession number as the name of the file
+* A 'data.tsv' with some information about each phage genome in this output directory

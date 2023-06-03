@@ -1,0 +1,2 @@
+[console_scripts]
+phinders_keepers.py = PhindersKeepers.main:main

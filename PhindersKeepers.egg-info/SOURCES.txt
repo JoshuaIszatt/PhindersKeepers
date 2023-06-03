@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+PhindersKeepers/__init__.py
+PhindersKeepers/main.py
+PhindersKeepers.egg-info/PKG-INFO
+PhindersKeepers.egg-info/SOURCES.txt
+PhindersKeepers.egg-info/dependency_links.txt
+PhindersKeepers.egg-info/entry_points.txt
+PhindersKeepers.egg-info/requires.txt
+PhindersKeepers.egg-info/top_level.txt
