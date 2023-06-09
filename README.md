@@ -6,6 +6,8 @@ This is a simple python script designed to help parse data from inphared.
 Hopefully Inphared keeps up the good work for the phage community...
 We're all counting on you [Ryan Cook](https://github.com/RyanCook94/inphared)
 
+**NOTE: This script does not generate any data, it is just used to select and pull data from existing sources**
+
 ## Install
 ```
 pip install PhindersKeepers
